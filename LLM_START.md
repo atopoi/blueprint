@@ -24,9 +24,9 @@ Follow this sequence to build your understanding of the project:
 
 1. **Start Here (LLM_START.md)**: High-level guidance (this document)
 2. **Research Journal (research_journal.md)**: Project history, experiments, and current status
-3. **Journal Guidelines (blueprint/guides/journal-guidelines.md)**: Rules for maintaining the research journal
+3. **Journal Guidelines (blueprint/journal-guidelines.md)**: Rules for maintaining the research journal
 4. **Project Roadmap (blueprint/roadmap.md)**: Overall project plan and technical specifications
-5. **More specs files (blueprint/specs/\*.md)**: Other specs and documants
+5. **More specs files (blueprint/specs/\*.md)**: Other specs and documents
 
 ### Key Files and Their Purpose
 
@@ -35,9 +35,9 @@ Follow this sequence to build your understanding of the project:
 | LLM_START.md | Entry point guide for AI assistants |
 | README.md | Project overview for general audience |
 | research_journal.md | Comprehensive project history and status |
-| blueprint/guides/journal-guidelines.md | Format and rules for journal entries |
+| blueprint/journal-guidelines.md | Format and rules for journal entries |
 | blueprint/roadmap.md | Overall project plan and milestones |
-| blueprint/getting_started.md | Setup and usage instructions |
+| blueprint/getting-started.md | Setup and usage instructions |
 | blueprint/specs/\*.md | more specs and documents |
 
 ## Understanding Project Context
@@ -165,4 +165,4 @@ By following this guide, you'll be able to effectively contribute to the project
 
 ---
 
-**Recommended first action**: Read the roadamap and CURRENT FOCUS section of the research journal to understand immediate priorities.
+**Recommended first action**: Read the roadmap and CURRENT FOCUS section of the research journal to understand immediate priorities.

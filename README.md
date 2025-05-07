@@ -1,6 +1,6 @@
-# Blueprint
+ # Blueprint
 
-Minimalist, vendor-agnostic guidelines and tools for R&D projects, designed for both AI coding assistants and humans alike!
+ Minimalist guidelines and tools for R&D projects, designed for both LLM coding assistants and humans alike!
 
  ## Getting Started
 
@@ -13,8 +13,7 @@ Explore the guides in the `blueprint/` directory:
  ## Usage
 
 - Copy the files and folders into your project repository
-- Start each coding agent session by asking it to read and follow `blueprint/LLM_START.md`
-- Vendor-agnostic: works with any AI or code assistant
+- Start each coding agent session by asking it to read and follow `LLM_START.md`
 
  ## Contributing
 

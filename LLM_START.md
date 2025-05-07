@@ -1,8 +1,8 @@
-# AI Assistant Entry Point Guide
+# LLM Entry Point Guide
 
 ## Welcome, AI Assistant
 
-This vendor-agnostic guide serves as the primary entry point for any AI assistant (model or code assistant) collaborating on this research project. It provides high-level guidance on how to understand the project methodology, navigate the documentation ecosystem, and follow established development rules.
+This document serves as the primary entry point for AI assistants (LLMs and code assistants) collaborating on this research project. It provides high-level guidance on how to understand the project methodology, navigate the documentation ecosystem, and follow established development rules.
 
 ## Meta-Methodology
 
@@ -22,7 +22,7 @@ This project follows a structured research and development methodology with thes
 
 Follow this sequence to build your understanding of the project:
 
-1. **Start Here (blueprint/LLM_START.md)**: High-level guidance (this document)
+1. **Start Here (LLM_START.md)**: High-level guidance (this document)
 2. **Research Journal (research_journal.md)**: Project history, experiments, and current status
 3. **Journal Guidelines (blueprint/journal-guidelines.md)**: Rules for maintaining the research journal
 4. **Project Roadmap (blueprint/roadmap.md)**: Overall project plan and technical specifications

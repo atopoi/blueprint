@@ -4,16 +4,16 @@
 
  ## Getting Started
 
- Explore the guides in the `guides/` directory:
+Explore the guides in the `blueprint/` directory:
 
- - **Getting Started**: `blueprint/guides/getting-started.md`
- - **Journal Guidelines**: `blueprint/guides/journal-guidelines.md`
- - **Roadmap**: `blueprint/guides/roadmap.md`
+- **Getting Started**: `blueprint/getting-started.md`
+- **Journal Guidelines**: `blueprint/journal-guidelines.md`
+- **Roadmap**: `blueprint/roadmap.md`
 
  ## Usage
 
-- Just copy the files and folders in your repo
-- Start each doding agent session by asking it to read and follow LLM_START.md
+- Copy the files and folders into your project repository
+- Start each coding agent session by asking it to read and follow `LLM_START.md`
 
  ## Contributing
 

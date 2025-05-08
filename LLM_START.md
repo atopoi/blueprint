@@ -14,9 +14,10 @@ This project follows a structured research and development methodology with thes
 
 3. **Incremental Progress Tracking**: Work is organized into trackable units with goals, roadmaps, and status indicators.
 
-4. **Publication-Oriented Research**: Research activities are structured to facilitate later creation of publications (blogs, articles, papers).
+4. **Publication-Oriented Research**: Research activities and journals are structured to facilitate later creation of publications (blogs, articles, papers).
 
 5. **Reproducible Experiments**: All experimental work is fully documented for reproducibility.
+
 6. **Transparency & Attribution**: When leveraging external content or insights, always cite the original source and author to maintain transparency, credit, and traceability.
 
 ## Documentation Ecosystem Navigation
@@ -27,7 +28,7 @@ Follow this sequence to build your understanding of the project:
 2. **Research Journal (research_journal.md)**: Project history, experiments, and current status
 3. **Journal Guidelines (blueprint/journal-guidelines.md)**: Rules for maintaining the research journal
 4. **Project Roadmap (blueprint/roadmap.md)**: Overall project plan and technical specifications
-5. **More specs files (blueprint/specs/\*.md)**: Other specs and documents
+5. **More spec documents (blueprint/documents/\*.md)**: Additional specifications and documentation
 
 ### Key Files and Their Purpose
 
@@ -39,16 +40,22 @@ Follow this sequence to build your understanding of the project:
 | blueprint/journal-guidelines.md | Format and rules for journal entries |
 | blueprint/roadmap.md | Overall project plan and milestones |
 | blueprint/getting-started.md | Setup and usage instructions |
-| blueprint/specs/\*.md | more specs and documents |
+| blueprint/documents/\*.md | Additional specifications and documentation |
 
 ## Understanding Project Context
 
 To quickly understand the current project context:
 
-1. Review the **CURRENT FOCUS** section in the research journal
-2. Check recent daily log entries for ongoing activities
-3. Review the TODO section for pending tasks
-4. Look at active experiments with incomplete status
+1. Use the roadmap (`blueprint/roadmap.md`) as a reference; it outlines:
+   - High-level goals and context
+   - Strategies and methodologies
+   - Constraints and resources
+   - Milestones
+2. When updating the roadmap, ensure changes are proposed by human authors or explicitly validated by them.
+3. Review the **CURRENT FOCUS** section in the research journal (`research_journal.md`).
+4. Check recent daily log entries for ongoing activities.
+5. Review the TODO/NEXT section for pending tasks.
+6. Look at active experiments with incomplete status.
 
 ## Participation Guidelines
 
@@ -57,30 +64,38 @@ When assisting with this project, please follow these principles:
 ### General Rules
 
 1. **Stay within the established methodology**: Follow the journal format and documentation structure.
-2. **Provide attributable contributions**: Sign your own inputs with your name; for content sourced externally (e.g., papers, blogs, code snippets), explicitly cite the original source and author.
+2. **Provide attributable contributions**: For content sourced externally (e.g., papers, blogs, code snippets), explicitly cite the original source and author.
 3. **Focus on current priorities**: Check the CURRENT FOCUS section before making suggestions.
 4. **Maintain the knowledge graph**: Use proper linking between related concepts.
 5. **Preserve documentation hierarchy**: Know which document is authoritative for different information.
 
 ### How to Respond to Queries
 
-1. **Research Phase Queries**: 
-   - Reference relevant journal entries
-   - Suggest potential experiments
-   - Link to related scientific literature
+1. **Research Phase Queries**:
+   - State explicitly the questions, context, and hypotheses
+   - Explain the methodology, constraints, and assumptions
+   - Reference relevant journal entries for background and previous results
+   - Suggest potential experiments and outline expected outcomes
+   - Before launching an experiment: assign a unique name, describe its purpose, scope, and constraints
+   - When experiments fail, document and explain the failure modes
+   - Link to related scientific literature for context and methods
    - Structure responses to support future publication
 
 2. **Development Phase Queries**:
-   - Follow code implementation guidelines
-   - Maintain consistency with existing codebase
-   - Document changes in the journal
-   - Link implementation to experiment results
+   - Follow code implementation guidelines and style conventions
+   - Maintain consistency with the existing codebase and architecture
+   - Document changes in the journal before implementation
+   - Link implementation details to experiment results or requirements
+   - Prefer simple, clear solutions; discuss alternatives as needed
+   - Ensure reproducibility of code and experimental environments
 
 3. **Analysis Phase Queries**:
-   - Focus on reproducibility
-   - Connect results to hypotheses
-   - Highlight publication-worthy findings
-   - Suggest follow-up experiments
+   - Propose a concise summary of key results with context
+   - Provide links to full results or embed them in tables and figures
+   - Notify project leads or stakeholders of critical outcomes
+   - Connect analysis back to hypotheses and project objectives
+   - Highlight publication-worthy findings and insights
+   - Suggest follow-up experiments or next steps
 
 4. **Publication Phase Queries**:
    - Extract content from journal entries

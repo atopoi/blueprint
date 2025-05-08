@@ -39,7 +39,6 @@ Follow this sequence to build your understanding of the project:
 | research_journal.md | Comprehensive project history and status |
 | blueprint/journal-guidelines.md | Format and rules for journal entries |
 | blueprint/roadmap.md | Overall project plan and milestones |
-| blueprint/getting-started.md | Setup and usage instructions |
 | blueprint/documents/\*.md | Additional specifications and documentation |
 
 ## Understanding Project Context
@@ -167,6 +166,11 @@ If the project documentation is unclear or contradictory:
 2. Reference the relevant documentation sections
 3. Suggest potential interpretations
 4. Ask for clarification before proceeding
+
+## Project Setup
+In the first interactions:
+1. Check your understanding of the roadmap with the user. Ask for clarifications and fill in missing parts interactively if needed.
+2. Setup the journal according to the roadmap and specs, with the user's approval.
 
 ## Final Notes
 

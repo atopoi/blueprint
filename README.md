@@ -22,9 +22,9 @@ At the start of each session, instruct your AI assistant to read and adhere to `
 
 ## How it works
 
-The file `LLM_START.md` provides global instructions to the AI assistant. It’s human-readable—be sure to review it!
+The file `LLM_START.md` provides global instructions to the AI assistant. It’s human-readable, be sure to review it!
 
-Then the agent will use the `research_journal` to manage all activities. It should automatically update the journal in a systematic, structured manner during project execution. This journal is also human-readable and modeled according to established research practices.
+The agent uses the `research_journal` to manage all activities. It should automatically update the journal in a systematic, structured manner during project execution. This journal is also human-readable and modeled according to established research practices. The agent uses the methods defined in `blueprint/journal-guidelines.md` to use and edit the journal.
 
 The other key file is `blueprint/roadmap.md`, which documents high-level project goals, strategies, constraints, and milestones. First written by the user, it will be updated and formatted by the agent. A good practice is to ask the agent to analyze the roadmap during project setup and interactively elaborate on it. Also, the roadmap can be updated and refined at any time for experimental and exploratory R&D. In fact, many AI assistants excel at this. The user can also edit the roadmap manually, then ask the agent to read it again.
 
@@ -36,13 +36,6 @@ As an additional practical feature, you can define a list of common useful queri
 - **Interactive Merge**: Diff two file versions, resolve conflicts interactively, and update the target file.
 - **Expand Formulate**: Locate `FORMULATE:` labels and rephrase the following text to match document style.
 - **Search Cite**: Locate `CITE:` labels, find authoritative sources, and insert properly formatted citations.
-
-## Contributing
-
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
-- Reporting issues and suggesting features
-- Code reviews and pull requests
-- Documentation improvements
 
 ## License
 

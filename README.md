@@ -14,6 +14,7 @@ Explore the guides in the `blueprint/` directory:
 
 - Copy the files and folders into your project repository
 - Start each coding agent session by asking it to read and follow `LLM_START.md`
+- Use **Special Queries** for advanced operations (Interactive Merge, Expand Formulate, Search Cite). See the **Special Queries** section in `LLM_START.md` for details.
 
  ## Contributing
 

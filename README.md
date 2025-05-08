@@ -1,36 +1,37 @@
 # Blueprint
 
-Minimalist, vendor-agnostic guidelines and tools to transform any project into a structured research workflow for both AI assistants and human collaborators.
+Minimalist, vendor-agnostic, drop-in instruction files to transform any project into a structured research workflow for both AI assistants and human collaborators.
+
 
 ## Getting Started
 
-The core components of this blueprint:
-
-- `LLM_START.md`: Entry-point guide for AI and code assistants.
-- `blueprint/roadmap.md`: Document high-level project goals, strategies, constraints, and milestones.
-- `blueprint/getting-started.md`: Setup instructions and usage examples.
-- `blueprint/journal-guidelines.md`: Templates and rules for maintaining the research journal.
-- `blueprint/documents/`: Folder for additional specification and documentation files.
-- `examples/`: Sample journal entries and experiment logs.
-  
-Copy these files and folders into your project to bootstrap your R&D workflow.
-
-## Usage
-
 ### Setup
-1. Copy `LLM_START.md` and the `blueprint/` directory into your project repository.
-2. Customize `blueprint/roadmap.md` with your project’s goals, methodologies, resources, and milestones.
-3. (Optional) Add detailed specifications or design documents under `blueprint/documents/`.
-4. Create or copy a research journal file (e.g., `research_journal.md`) and follow the templates in `blueprint/journal-guidelines.md`.
-5. Refer to the `examples/` folder for sample journal entries and experiment logs.
+1. Copy `LLM_START.md`, `research_journal.md`, and the `blueprint/` directory into your project repository.
+2. Customize `blueprint/roadmap.md` with your project’s goals, methodologies, resources, and milestones. It can be minimal at first and refined interactively later.
+3. Instruct the LLM or coding agent to read and follow `LLM_START.md`.
+
+That's it! The coding assistant becomes a research assistant!
+
+### Optional
+- You can add detailed specifications or design documents at any time under `blueprint/documents/`. Just ask the agent to read them.
+- There are additional journal templates in `examples/`, but it’s best to ask the agent if you want to tweak the journal.
 
 ### Running Sessions
 At the start of each session, instruct your AI assistant to read and adhere to `LLM_START.md`. This ensures consistent context and methodology.
 
 
+## How it works
+
+The file `LLM_START.md` provides global instructions to the AI assistant. It’s human-readable—be sure to review it!
+
+Then the agent will use the `research_journal` to manage all activities. It should automatically update the journal in a systematic, structured manner during project execution. This journal is also human-readable and modeled according to established research practices.
+
+The other key file is `blueprint/roadmap.md`, which documents high-level project goals, strategies, constraints, and milestones. First written by the user, it will be updated and formatted by the agent. A good practice is to ask the agent to analyze the roadmap during project setup and interactively elaborate on it. Also, the roadmap can be updated and refined at any time for experimental and exploratory R&D. In fact, many AI assistants excel at this. The user can also edit the roadmap manually, then ask the agent to read it again.
+
+
 ## Special Queries
 
-This blueprint includes three advanced operations for AI assistants. See the **Special Queries** section in `LLM_START.md` for details:
+As an additional practical feature, you can define a list of common useful queries for the AI assistant. See the **Special Queries** section in `LLM_START.md` for details. For example:
 
 - **Interactive Merge**: Diff two file versions, resolve conflicts interactively, and update the target file.
 - **Expand Formulate**: Locate `FORMULATE:` labels and rephrase the following text to match document style.

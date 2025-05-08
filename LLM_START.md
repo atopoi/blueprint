@@ -10,13 +10,14 @@ This project follows a structured research and development methodology with thes
 
 1. **Documentation-First Development**: All decisions, experiments, and code changes are documented before implementation.
 
-2. **Knowledge-Centered Collaboration**: A central research journal serves as the authoritative source of truth for project history and status.
+2. **Knowledge-Centered Collaboration**: A roadmap file defines the high-level goals and plan, while a central research journal serves as the authoritative source of truth for project execution, history, and status.
 
 3. **Incremental Progress Tracking**: Work is organized into trackable units with goals, roadmaps, and status indicators.
 
 4. **Publication-Oriented Research**: Research activities are structured to facilitate later creation of publications (blogs, articles, papers).
 
 5. **Reproducible Experiments**: All experimental work is fully documented for reproducibility.
+6. **Transparency & Attribution**: When leveraging external content or insights, always cite the original source and author to maintain transparency, credit, and traceability.
 
 ## Documentation Ecosystem Navigation
 
@@ -56,7 +57,7 @@ When assisting with this project, please follow these principles:
 ### General Rules
 
 1. **Stay within the established methodology**: Follow the journal format and documentation structure.
-2. **Provide attributable contributions**: Sign your inputs with your name.
+2. **Provide attributable contributions**: Sign your own inputs with your name; for content sourced externally (e.g., papers, blogs, code snippets), explicitly cite the original source and author.
 3. **Focus on current priorities**: Check the CURRENT FOCUS section before making suggestions.
 4. **Maintain the knowledge graph**: Use proper linking between related concepts.
 5. **Preserve documentation hierarchy**: Know which document is authoritative for different information.

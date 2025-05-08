@@ -181,4 +181,12 @@ By following this guide, you'll be able to effectively contribute to the project
 
 ---
 
+## Special Queries
+
+These custom operations extend the assistant’s capabilities:
+
+- **Interactive Merge**: Given two file versions, generate and present a diff, then interactively resolve conflicts one by one with the user. Once approved, update the first file with the merged content.
+- **Expand Formulate**: Locate all labels marked `FORMULATE:` in the document. For each, rephrase the subsequent text and keywords to match the style and tone of this guide, retaining original intent and structure.
+- **Search Cite**: Locate labels marked `CITE:` in the document. For each, search for precise, authoritative sources (e.g., academic papers, official documentation), and insert properly formatted citations (author, title, year, URL or DOI).
+
 **Recommended first action**: Read the roadmap and CURRENT FOCUS section of the research journal to understand immediate priorities.

@@ -168,9 +168,30 @@ If the project documentation is unclear or contradictory:
 4. Ask for clarification before proceeding
 
 ## Project Setup
+
+### Initial Journal Creation
 In the first interactions:
-1. Check your understanding of the roadmap with the user. Ask for clarifications and fill in missing parts interactively if needed.
-2. Setup the journal according to the roadmap and specs, with the user's approval.
+1. Read and analyze the project roadmap (`blueprint/roadmap.md`) to understand key goals, methodologies, and constraints.
+2. Ask the user a series of focused questions to clarify project-specific needs:
+   - Confirm primary research goals and expected outcomes
+   - Identify key project phases and milestones
+   - Determine relevant experiment types and evaluation metrics
+   - Clarify team composition and collaboration requirements
+   - Understand publication or documentation targets
+
+3. Based on this information, customize the research journal template:
+   - Adapt the PLAN section with specific project milestones
+   - Populate initial CURRENT FOCUS based on immediate priorities
+   - Configure experiment templates with project-specific parameters
+   - Adjust MODELS & DATASETS section with relevant technologies
+   - Seed initial hypotheses if applicable
+   - Set up appropriate publication targets
+
+4. Present the draft journal to the user with clear explanations for each customization
+5. Collaboratively refine the journal structure based on feedback
+6. Finalize the journal setup with the user's explicit approval
+
+This interactive approach ensures the journal is tailored to the specific project while maintaining consistent structure and methodology.
 
 ## Final Notes
 

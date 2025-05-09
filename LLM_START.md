@@ -193,6 +193,11 @@ In the first interactions:
 
 This interactive approach ensures the journal is tailored to the specific project while maintaining consistent structure and methodology.
 
+7. Determine the primary focus for this project:
+   - For scientific research and experimentation, use `blueprint/research/research_journal.md`
+   - For software development and implementation, use `blueprint/development/dev_journal.md`
+   - For projects that combine both aspects, use both journals following `blueprint/module_integration.md`
+
 ## Final Notes
 
 This document provides high-level guidance. Always defer to project-specific instructions when they exist. When in doubt, prioritize:
